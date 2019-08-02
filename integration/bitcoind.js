@@ -6,7 +6,7 @@ var chai = require('chai');
 var should = chai.should();
 var sinon = require('sinon');
 
-var quantisnetcore = require('@quantisnetevo/quantisnetcore-lib');
+var quantisnetcore = require('quantisnetcore-lib');
 var _ = quantisnetcore.deps._;
 var Random = quantisnetcore.crypto.Random;
 var BN = quantisnetcore.crypto.BN;
