@@ -1,5 +1,5 @@
 {
-  "name": "@quantisnetevo/quantisnetcore-p2p",
+  "name": "quantisnetcore-p2p",
   "version": "1.2.0",
   "description": "Interface to the quantisnet P2P network for Quantsisnetcore",
   "author": "BitPay <dev@bitpay.com>",
@@ -52,7 +52,7 @@
     "url": "https://github.com/quantisnetevo/quantisnetcore-p2p.git"
   },
   "dependencies": {
-    "@quantisnetevo/quantisnetcore-lib": "^0.17.6",
+    "quantisnetcore-lib": "git://github.com/wkibbler/quantisnetcore-lib.git",
     "bloom-filter": "^0.2.0",
     "mocha": "^5.2.0",
     "node-buffers": "^0.1.1",
